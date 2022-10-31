@@ -1,0 +1,23 @@
+.dblbr-box{
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+
+}
+.number-box{
+    background-color: rgb(0, 95, 184);
+    padding: 7px 10px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: white;
+}
+.dblbr-money{
+    background-color: rgba(187, 187, 187, 0.469);
+    height: fit-content;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+
+    font-weight: 800;
+}

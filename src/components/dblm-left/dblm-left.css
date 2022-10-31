@@ -1,0 +1,8 @@
+.chart-container {
+  width: 100%;
+}
+.chart-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}

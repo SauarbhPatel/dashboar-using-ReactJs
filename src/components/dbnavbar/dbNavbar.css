@@ -1,0 +1,26 @@
+.db-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.db-link {
+  display: flex;
+}
+.db-icon-box {
+  padding: 8px;
+}
+.db-icon {
+  font-size: 19px;
+  color: gray;
+}
+.db-img {
+  width: 19px;
+}
+.db-profile {
+  border-radius: 50%;
+  width: 22px;
+}
+.db-title {
+  display: flex;
+}
