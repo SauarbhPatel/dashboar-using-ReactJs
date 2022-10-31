@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dashboar-using-ReactJs/static/css/main.78723dd7.css",
+    "main.js": "/dashboar-using-ReactJs/static/js/main.08d31569.js",
+    "static/media/profile.jpg": "/dashboar-using-ReactJs/static/media/profile.7656ad81f894b370ad9f.jpg",
+    "static/media/flag.png": "/dashboar-using-ReactJs/static/media/flag.e926a47c8090a6b9c494.png",
+    "index.html": "/dashboar-using-ReactJs/index.html",
+    "main.78723dd7.css.map": "/dashboar-using-ReactJs/static/css/main.78723dd7.css.map",
+    "main.08d31569.js.map": "/dashboar-using-ReactJs/static/js/main.08d31569.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78723dd7.css",
+    "static/js/main.08d31569.js"
+  ]
+}
