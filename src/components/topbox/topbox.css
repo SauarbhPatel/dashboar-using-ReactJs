@@ -17,23 +17,28 @@
   align-items: center;
 }
 .tb-icon {
-    font-size: 22px;
-    color: white;
+  font-size: 22px;
+  color: white;
 }
-.tb-text{
-    padding-left: 12px;
-    width: 70%;
+.tb-text {
+  padding-left: 12px;
+  width: 70%;
+}
+.tb-pogress {
+  background-color: rgb(231, 254, 231);
+  color: rgb(4, 144, 4);
+  border-radius: 30px;
+  padding: 2px 5px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-}
-.tb-pogress{
-    background-color: rgb(231, 254, 231);
-    color: rgb(4, 144, 4);
-    border-radius: 30px;
-    padding: 2px 5px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-weight: 800;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media only screen and (max-width: 550px) {
+ .tb-box{
+  margin: 10px 0;
+ }
 }

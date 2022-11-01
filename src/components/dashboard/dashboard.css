@@ -15,7 +15,7 @@
   display: flex;
   width: 100%;
 }
-.tb-box{
+.tb-box {
   width: 33%;
 }
 .db-top .tb-box:not(:last-child) {
@@ -25,7 +25,7 @@
   margin-top: 25px;
 }
 .db-right {
-  width:25%;
+  width: 25%;
   border-radius: 20px;
   box-shadow: 0 0 5px rgba(128, 128, 128, 0.518);
   position: relative;
@@ -33,14 +33,65 @@
 }
 .db-bottom {
   display: flex;
+  justify-content: space-between;
   margin-top: 20px;
 }
-.db-bottom > div{
+.db-bottom > div {
   width: 32%;
   box-shadow: 0 0 5px rgba(128, 128, 128, 0.476);
   border-radius: 15px;
   padding: 10px;
 }
-.db-bottom > div:nth-child(1) ,.db-bottom > div:nth-child(2) {
+.db-bottom > div:nth-child(1),
+.db-bottom > div:nth-child(2) {
   margin-right: 20px;
+}
+@media only screen and (max-width: 1150px) {
+  .db-container {
+    flex-direction: column;
+  }
+  .db-left {
+    order: 2;
+  }
+  .db-right {
+    order: 1;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .db-right {
+    width: 100%;
+  }
+  .db-right:not(:last-child) {
+    margin-right: 10px;
+    border-right: 0.5px solid gray;
+  }
+
+  .db-left {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .db-right {
+    flex-direction: column;
+  }
+  .db-top {
+    flex-direction: column;
+  }
+  .tb-box {
+    width: 100%;
+  }
+  .db-bottom {
+    flex-direction: column;
+  }
+  .db-bottom > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .db-top .tb-box:not(:last-child) {
+    margin-right: 20px;
+  }
+  .dblb-pogress-bar-box {
+    display: flex;
+    justify-content: center;
+  }
 }

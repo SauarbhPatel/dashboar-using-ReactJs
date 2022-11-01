@@ -47,7 +47,7 @@ const DashboardNavbar = ({ toggleState, setToggle }) => {
           <RiSettings3Line className="db-icon" />
         </div>
         <div className="db-icon-box">
-          <img src={Flag} className="db-profile" alt="horse" />
+          <img src={Profile} className="db-profile" alt="horse" />
         </div>
       </div>
     </div>

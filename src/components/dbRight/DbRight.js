@@ -1,6 +1,6 @@
 import React from 'react'
 import "./dbright.css";
-
+import Profile from "../../img/profile.jpg";
 import { AiOutlineInfoCircle } from "react-icons/ai";
 
 
@@ -10,7 +10,7 @@ const DbRight = () => {
     <div className="dbr-first">
       <div className="dbr-img">
         <div className="dbr-icon">...</div>
-        <div className="dbr-profile"></div>
+        <div className="dbr-profile"   style={{ backgroundImage: `url(${Profile})` }}></div>
       </div>
       <div className="dbr-name">Jennifer Bennett</div>
       <div className="dbr-Prof">Product Designer</div>
