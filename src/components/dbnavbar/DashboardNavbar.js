@@ -28,7 +28,7 @@ const DashboardNavbar = ({ toggleState, setToggle }) => {
         >
           <CgMenuLeft className="toggle-icon" color="black" />
         </div>
-        <span>Dashboard</span>
+        <span>Dash</span>
       </div>
       <div className="db-link">
         <div className="db-icon-box">
